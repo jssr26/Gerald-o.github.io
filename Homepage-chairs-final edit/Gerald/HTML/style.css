@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+#chairname
+{
+	font-size: 30px;
+}
+
+#mainpic
+{
+	width:300px;
+	
+}
+
+.Pic
+{
+display: block;
+margin-left:40%;
+margin-right:40%;
+font-size: 20px;
+text-shadow: 2px 2px 4px #000000;
+color: white;
+	
+}
+.Pic p
+{
+	text-align:center;
+}
+
+.SellerInfo
+{
+	position: absolute;
+	width: 30%;
+	left: 1150px;
+	font-size: 18px;
+	bottom: 825px;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.menu
+{
+	background-color: red;
+	text-align: center;
+}
+
+.reviews
+{
+	position: absolute;
+	margin-left: 40%;
+	margin-right: 40%;
+	color: white;
+
+}
+
+.hidden
+{
+	display: none;
+}
+
+.BG
+{
+	z-index: -1;
+	width: 100%;
+	position: absolute;
+}
+
+.headBar {
+	display:block;
+	width:100%;
+	height: 60px;
+	border-bottom: 1px solid gray;
+	position: sticky;
+    top: 0;
+	z-index:1;
+	background-color:white;
+}
+
+.headBar img{
+	width: 200px;
+	height: 200px;
+    position: relative;
+    left: 130px;
+	margin-top:-60px;
+	
+}
+
+
+.headBar input {
+    float: right;
+    padding: 0px;
+    border: none;
+   
+    margin-right: 116px;
+    font-size: 17px;
+	border-left: 1px solid gray;
+
+	border-right: 1px solid gray;
+	height:60px;
+}
+
+
+.dropbttn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	text-align:left;
+}
+.drop{
+    position: relative;
+    display: inline-block;
+	float:left;
+	border-right: 1px solid grey;
+	height:100%;
+}
+.dropdo{
+	display: none; 
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+	
+	
+}
+
+.dropdo a{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	border: .5px solid black;
+}
+
+.dropdo a:hover {background-color:#EAF2F8 !important;}
+
+.drop:hover .dropdo {
+    display:block !important;
+}
+
+.drop:hover .dropbttn {
+    background-color: gray !important;
+}

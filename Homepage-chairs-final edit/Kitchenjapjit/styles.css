@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #062F4F;
+}
+H1{
+	text-align:center;
+	font-size:25px;
+	padding-top:20px;
+	color: white;
+	display:block;
+	margin-right: 12S0px;
+}
+
+.class1{
+	text-align:center;
+	font-size:15px;
+	background-color: #000000;
+	color: white;
+    
+	
+	}
+.class2 {
+	font-size:15px;
+	background-color:062f4f;
+	padding-top:50px;
+	position: relative;
+	height:400px;
+	width:300px;
+	
+	color: white;
+	float: left;
+}
+
+
+
+#picture{
+	width:300px;
+	height:300px;
+	float: right;
+	color:white;
+	display:none;
+	text-align:center;  
+    margin-right: 530px;
+	padding-top: 25px;
+
+}
+.picture img  {
+    float: right;
+	width:300px;
+	height:300px;
+
+
+	
+	
+}	
+
+#picture2{
+	width:300px;
+	height:300px;
+	float: right;
+	color:white;
+	display:none;
+	text-align:center;
+	margin-right: 530px;
+	padding-top: 25px;
+
+	
+}
+
+.picture2 img  {
+    float: right;
+	width:300px;
+	height:300px;
+	
+	
+	
+}	
+
+#picture3{
+	width:300px;
+	height:300px;
+	float: right;
+color:white;
+display:none;
+text-align:center;
+margin-right: 530px;
+	padding-top: 25px;
+
+
+}
+
+.picture3 img  {
+    float: right;
+	width:300px;
+	height:300px;
+	
+	
+	
+}	
+
+	
+.dropdown-content {
+	position: absolute;
+	float:left;
+	border: 2px solid black;
+	width:300px;
+	height:300px;
+	color:white;
+}
+.dropdown-content button{
+	display:block;
+	margin-top:10px;
+}
+.class3{
+	margin-top:400px;
+	background-color:#B82601;
+	width:100%;
+	height:150px;
+	text-align: center;
+	position: absolute;
+
+	
+}
+.class3 p{
+	padding-top:50px;
+	text-align: center;
+	color:white;
+}
+
+.dropbttn {
+    background-color: #B82601;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	text-align:left;
+}
+.drop{
+    position: relative;
+    display: inline-block;
+	float:left;
+}
+.dropdo{
+	display: none; 
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+	
+	
+}
+
+.dropdo a{
+	color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdo a:hover {background-color:blue !important;}
+
+.drop:hover .dropdo {
+    display:block !important;
+}
+
+.drop:hover .dropbttn {
+    background-color: #B82601 !important;
+}
